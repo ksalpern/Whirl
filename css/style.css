@@ -1,3 +1,9 @@
-body { background-color: azure; }
+.header .header__top { background-color: #0070A0; display: flex; justify-content: center; align-items: center; height: 43px; }
+.header .header__top p { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 20px; /* identical to box height, or 140% */ text-align: center; letter-spacing: 0.2px; color: #FFFFFF; }
+.header .header__top .seeAll { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 13px; line-height: 18px; /* identical to box height, or 140% */ text-align: center; letter-spacing: 0.2px; color: #CCE5F3; }
+.header .header__down { display: flex; padding: 20px 159px 20px 155px; }
+.header .header__down .logo { display: flex; justify-content: center; align-items: center; margin-right: 24px; }
+.header .header__down .menu { display: flex; justify-content: center; align-items: center; }
+.header .header__down .menu a { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 15px; line-height: 24px; /* identical to box height, or 160% */ letter-spacing: 0.2px; color: #33383F; margin-left: 14px; margin-right: 14px; }
 
 /*# sourceMappingURL=style.css.map */
