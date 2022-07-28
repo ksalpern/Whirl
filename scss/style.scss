@@ -345,6 +345,7 @@ $thirdBG: #E6F7FF;
     background-color: $mainBG;
     padding: 119px 163px 134px 155px;
     justify-content: space-between;
+
     .about__left {
         h2 {
             font-family: 'Fraunces';
@@ -361,11 +362,13 @@ $thirdBG: #E6F7FF;
 
     .about__right {
         display: flex;
-        .daily{
+
+        .daily {
             margin-left: 40px;
             margin-right: 34px;
             width: 189px;
         }
+
         .about__card {
             width: 215px;
 
@@ -392,6 +395,253 @@ $thirdBG: #E6F7FF;
                 letter-spacing: 0.2px;
                 color: #1F1F1F;
 
+            }
+        }
+    }
+}
+
+.track {
+    display: flex;
+    justify-content: space-between;
+    background-color: $blueBg;
+    padding: 80px 175px 100px 216px;
+
+    .track__left {
+        margin-right: 180px;
+    }
+
+    .track__right {
+        h2 {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 50px;
+            /* or 120% */
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+            width: 403px;
+        }
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            /* or 150% */
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+            margin-top: 21px;
+            margin-bottom: 6px;
+        }
+
+        .track__item {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            /* identical to box height, or 135% */
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+            margin-top: 11px;
+            margin-bottom: 11px;
+        }
+
+        button {
+            margin-top: 24px;
+            margin-left: 24px;
+            background: none;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 27px;
+            /* identical to box height, or 159% */
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.automated {
+    padding: 119px 164px 134px 155px;
+    background-color: $mainBG;
+
+    .automated__top {
+        margin-bottom: 65px;
+
+        h2 {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 50px;
+            /* identical to box height, or 120% */
+            letter-spacing: 0.2px;
+            color: #1F1F1F;
+            margin-bottom: 21px;
+        }
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            /* or 150% */
+            letter-spacing: 0.2px;
+            color: #1F1F1F;
+            width: 643px;
+        }
+    }
+
+    .automated__down {
+        display: flex;
+        justify-content: space-between;
+
+        .automated__card {
+            max-width: 233px;
+
+            img {
+                background: $mainBG;
+
+            }
+
+            h3 {
+                margin-top: 11px;
+                margin-bottom: 13px;
+                font-family: 'Fraunces';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 31px;
+                /* identical to box height, or 125% */
+                letter-spacing: 0.2px;
+                color: #1F1F1F;
+            }
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+                letter-spacing: 0.2px;
+                color: #1F1F1F;
+            }
+        }
+    }
+}
+
+.blog {
+    padding-top: 79px;
+    padding-bottom: 80px;
+    padding-left: 155px;
+    padding-right: 155px;
+    background-color: $secondBG;
+
+    .blog__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        h2 {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 50px;
+            /* identical to box height, or 120% */
+            letter-spacing: 0.2px;
+            color: #1F1F1F;
+        }
+
+        button {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 27px;
+            /* identical to box height, or 159% */
+            text-align: center;
+            letter-spacing: 0.2px;
+            color: #0070A0;
+            background: none;
+        }
+    }
+
+    .blog__down {
+        display: flex;
+        justify-content: space-between;
+
+
+
+        .blog__card {
+            width: 355px;
+            background: #FFFFFF;
+            box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.04);
+            
+            img {
+                margin-bottom: 25px;
+            }
+
+            .card__content{
+                padding: 0 30px 27px 24px;
+                .blog__theme {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    /* identical to box height, or 133% */
+                    text-align: center;
+                    letter-spacing: 0.4px;
+                    color: #2C90C9;
+                    background: #E6F7FF;
+                    height: 22px;
+    
+                }
+    
+                h2 {
+                    margin-top: 8px;
+                    margin-bottom: 12px;
+                    font-family: 'Fraunces';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 31px;
+                    /* or 125% */
+                    letter-spacing: 0.2px;
+                    color: #1F1F1F;
+    
+                }
+    
+                h3 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    /* or 140% */
+                    letter-spacing: 0.2px;
+                    color: #1F1F1F;
+                    margin-bottom: 13px;
+                }
+    
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 20px;
+                    /* identical to box height, or 163% */
+                    letter-spacing: 0.2px;
+                    color: #1F1F1F;
+                }
             }
         }
     }
