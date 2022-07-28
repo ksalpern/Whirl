@@ -584,13 +584,14 @@ $thirdBG: #E6F7FF;
             width: 355px;
             background: #FFFFFF;
             box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.04);
-            
+
             img {
                 margin-bottom: 25px;
             }
 
-            .card__content{
+            .card__content {
                 padding: 0 30px 27px 24px;
+
                 .blog__theme {
                     font-family: 'Inter';
                     font-style: normal;
@@ -603,9 +604,9 @@ $thirdBG: #E6F7FF;
                     color: #2C90C9;
                     background: #E6F7FF;
                     height: 22px;
-    
+
                 }
-    
+
                 h2 {
                     margin-top: 8px;
                     margin-bottom: 12px;
@@ -617,9 +618,9 @@ $thirdBG: #E6F7FF;
                     /* or 125% */
                     letter-spacing: 0.2px;
                     color: #1F1F1F;
-    
+
                 }
-    
+
                 h3 {
                     font-family: 'Inter';
                     font-style: normal;
@@ -631,7 +632,7 @@ $thirdBG: #E6F7FF;
                     color: #1F1F1F;
                     margin-bottom: 13px;
                 }
-    
+
                 p {
                     font-family: 'Inter';
                     font-style: normal;
@@ -641,6 +642,145 @@ $thirdBG: #E6F7FF;
                     /* identical to box height, or 163% */
                     letter-spacing: 0.2px;
                     color: #1F1F1F;
+                }
+            }
+        }
+    }
+}
+
+.start {
+    padding: 80px 150px 128px 150px;
+
+    .start__container {
+        background-color: $thirdBG;
+        padding: 63px 580px 64px 64px;
+    }
+
+    h2 {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 50px;
+        /* identical to box height, or 120% */
+        letter-spacing: 0.2px;
+        color: #1F1F1F;
+    }
+
+    p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        /* or 150% */
+        letter-spacing: 0.2px;
+        color: #1F1F1F;
+        margin-top: 21px;
+        margin-bottom: 41px;
+    }
+
+    button {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        /* identical to box height, or 159% */
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        background: #0070A0;
+        margin-bottom: 20px;
+        width: 174px;
+        height: 43px;
+    }
+
+    .advantage {
+        span {
+            margin-right: 36px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 21px;
+            /* identical to box height, or 162% */
+            letter-spacing: 0.2px;
+            color: #626A72;
+        }
+    }
+}
+
+.footer {
+    background-color: $mainBG;
+    padding: 140px 150px 36px 150px;
+
+    .footer__top {
+        display: flex;
+
+        .authors {
+            .logo {
+                margin-bottom: 21px;
+            }
+
+            h3 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                /* identical to box height, or 140% */
+                letter-spacing: 0.2px;
+                color: #1F1F1F;
+
+                span {
+                    a {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 20px;
+                        /* identical to box height, or 151% */
+
+                        letter-spacing: 0.2px;
+
+                        color: #0070A0;
+                    }
+                }
+            }
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+
+            .info__items {
+                h3 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 24px;
+                    /* identical to box height, or 160% */
+                    letter-spacing: 0.2px;
+                    color: #1F1F1F;
+                    margin-bottom: 6px;
+                }
+
+                p {
+                    a {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 20px;
+                        /* identical to box height, or 151% */
+                        letter-spacing: 0.2px;
+                        color: #0070A0;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+
+                    }
                 }
             }
         }

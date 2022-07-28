@@ -77,4 +77,20 @@
 .blog .blog__down .blog__card .card__content h3 { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 20px; /* or 140% */ letter-spacing: 0.2px; color: #1F1F1F; margin-bottom: 13px; }
 .blog .blog__down .blog__card .card__content p { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 12px; line-height: 20px; /* identical to box height, or 163% */ letter-spacing: 0.2px; color: #1F1F1F; }
 
+.start { padding: 80px 150px 128px 150px; }
+.start .start__container { background-color: #E6F7FF; padding: 63px 580px 64px 64px; }
+.start h2 { font-family: 'Fraunces'; font-style: normal; font-weight: 400; font-size: 42px; line-height: 50px; /* identical to box height, or 120% */ letter-spacing: 0.2px; color: #1F1F1F; }
+.start p { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 18px; line-height: 27px; /* or 150% */ letter-spacing: 0.2px; color: #1F1F1F; margin-top: 21px; margin-bottom: 41px; }
+.start button { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 17px; line-height: 27px; /* identical to box height, or 159% */ text-align: center; letter-spacing: 0.2px; color: #FFFFFF; background: #0070A0; margin-bottom: 20px; width: 174px; height: 43px; }
+.start .advantage span { margin-right: 36px; font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 13px; line-height: 21px; /* identical to box height, or 162% */ letter-spacing: 0.2px; color: #626A72; }
+
+.footer { background-color: #F5F5F5; padding: 140px 150px 36px 150px; }
+.footer .footer__top { display: flex; }
+.footer .footer__top .authors .logo { margin-bottom: 21px; }
+.footer .footer__top .authors h3 { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 20px; /* identical to box height, or 140% */ letter-spacing: 0.2px; color: #1F1F1F; }
+.footer .footer__top .authors h3 span a { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 13px; line-height: 20px; /* identical to box height, or 151% */ letter-spacing: 0.2px; color: #0070A0; }
+.footer .footer__top .info { display: flex; justify-content: space-between; }
+.footer .footer__top .info .info__items h3 { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 15px; line-height: 24px; /* identical to box height, or 160% */ letter-spacing: 0.2px; color: #1F1F1F; margin-bottom: 6px; }
+.footer .footer__top .info .info__items p a { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 13px; line-height: 20px; /* identical to box height, or 151% */ letter-spacing: 0.2px; color: #0070A0; margin-top: 10px; margin-bottom: 10px; }
+
 /*# sourceMappingURL=style.css.map */
