@@ -1,9 +1,50 @@
 .header .header__top { background-color: #0070A0; display: flex; justify-content: center; align-items: center; height: 43px; }
 .header .header__top p { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 14px; line-height: 20px; /* identical to box height, or 140% */ text-align: center; letter-spacing: 0.2px; color: #FFFFFF; }
 .header .header__top .seeAll { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 13px; line-height: 18px; /* identical to box height, or 140% */ text-align: center; letter-spacing: 0.2px; color: #CCE5F3; }
-.header .header__down { display: flex; padding: 20px 159px 20px 155px; }
+.header .header__down { display: flex; padding: 20px 159px 20px 155px; background-color: #F5F5F5; }
 .header .header__down .logo { display: flex; justify-content: center; align-items: center; margin-right: 24px; }
 .header .header__down .menu { display: flex; justify-content: center; align-items: center; }
 .header .header__down .menu a { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 15px; line-height: 24px; /* identical to box height, or 160% */ letter-spacing: 0.2px; color: #33383F; margin-left: 14px; margin-right: 14px; }
+.header .header__down .sign { margin-left: 445px; }
+.header .header__down .sign button { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 15px; line-height: 24px; /* identical to box height, or 160% */ letter-spacing: 0.2px; color: #0070A0; background-color: #F5F5F5; }
+.header .header__down .sign .book { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 15px; line-height: 24px; /* identical to box height, or 160% */ letter-spacing: 0.2px; color: #FFFFFF; background: #0070A0; width: 139px; height: 36px; margin-left: 30px; }
+
+.everyday { background-color: #F5F5F5; padding: 80px 155px 146px 155px; display: flex; justify-content: space-between; }
+.everyday .everyday__left h1 { font-family: 'Fraunces'; font-style: normal; font-weight: 400; font-size: 58px; line-height: 64px; letter-spacing: 0.2px; color: #1F1F1F; width: 485px; }
+.everyday .everyday__left p { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 30px; /* or 150% */ letter-spacing: 0.2px; color: #1F1F1F; width: 351px; margin-top: 24px; margin-bottom: 37px; }
+.everyday .everyday__left .more button { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 17px; line-height: 27px; /* identical to box height, or 159% */ text-align: center; letter-spacing: 0.2px; color: #0070A0; background-color: #F5F5F5; height: 43px; }
+.everyday .everyday__left .more .book { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 17px; line-height: 27px; /* identical to box height, or 159% */ text-align: center; letter-spacing: 0.2px; color: #FFFFFF; background-color: #0070A0; width: 174px; height: 43px; margin-right: 24px; }
+.everyday .everyday__right .everyday__img { margin-top: -40px; }
+
+.companies { background: #F5F5F5; }
+.companies .companies__header { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 24px; line-height: 38px; /* identical to box height, or 156% */ text-align: center; letter-spacing: 0.2px; color: #1F1F1F; margin-bottom: 32px; }
+.companies .companies__img { display: flex; align-items: center; justify-content: center; }
+.companies .companies__img img { margin-left: 62px; margin-right: 62px; }
+
+.pros { background-color: #F5F5F5; padding-top: 160px; padding-bottom: 200px; display: flex; justify-content: space-around; }
+.pros .pros__card { width: 335px; padding: 36px; }
+.pros .pros__card h2 { margin-top: 12px; margin-bottom: 13px; font-family: 'Fraunces'; font-style: normal; font-weight: 400; font-size: 25px; line-height: 31px; /* identical to box height, or 125% */ letter-spacing: 0.2px; color: #1F1F1F; }
+.pros .pros__card p { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 15px; line-height: 24px; /* or 160% */ letter-spacing: 0.2px; color: #1F1F1F; }
+.pros .yellow { background-color: #FAEA73; }
+.pros .blue { background-color: #CCEFF6; }
+.pros .pink { background-color: #F7CEDC; }
+
+.care { padding: 79px 220px 105px 155px; background-color: #F7F9FA; display: flex; justify-content: space-between; }
+.care .care__left h2 { font-family: 'Fraunces'; font-style: normal; font-weight: 400; font-size: 42px; line-height: 50px; /* identical to box height, or 120% */ letter-spacing: 0.2px; color: #1F1F1F; margin-bottom: 60px; width: 580px; }
+.care .care__left .options p { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 24px; /* or 150% */ letter-spacing: 0.2px; color: #1F1F1F; width: 363px; padding-left: 54px; }
+.care .care__left .options .option { padding-left: 20px; padding-right: 20px; border-top: 1px solid #C2CDD8; border-bottom: 1px solid #C2CDD8; padding-top: 18px; padding-bottom: 18px; width: 450px; }
+.care .care__left .options .option .header { display: flex; justify-content: space-between; margin-bottom: 18px; }
+.care .care__left .options .option .header h3 { font-family: 'Fraunces'; font-style: normal; font-weight: 400; font-size: 21px; line-height: 25px; /* identical to box height, or 120% */ letter-spacing: 0.2px; color: #1F1F1F; }
+.care .care__left .options .option .header h3 img { margin-right: 20px; }
+.care .care__left .options .option .header button { background: none; }
+.care .care__img { padding-top: 146px; padding-left: 76px; }
+
+.about { display: flex; background-color: #F5F5F5; padding: 119px 163px 134px 155px; justify-content: space-between; }
+.about .about__left h2 { font-family: 'Fraunces'; font-style: normal; font-weight: 400; font-size: 42px; line-height: 50px; /* identical to box height, or 120% */ letter-spacing: 0.2px; color: #1F1F1F; width: 263px; }
+.about .about__right { display: flex; }
+.about .about__right .daily { margin-left: 40px; margin-right: 34px; width: 189px; }
+.about .about__right .about__card { width: 215px; }
+.about .about__right .about__card h3 { font-family: 'Fraunces'; font-style: normal; font-weight: 400; font-size: 25px; line-height: 31px; /* identical to box height, or 125% */ letter-spacing: 0.2px; color: #1F1F1F; margin-bottom: 13px; margin-top: 16px; }
+.about .about__right .about__card p { font-family: 'Inter'; font-style: normal; font-weight: 400; font-size: 15px; line-height: 24px; /* or 160% */ letter-spacing: 0.2px; color: #1F1F1F; }
 
 /*# sourceMappingURL=style.css.map */
