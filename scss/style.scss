@@ -717,6 +717,7 @@ $thirdBG: #E6F7FF;
 
     .footer__top {
         display: flex;
+        justify-content: space-between;
 
         .authors {
             .logo {
@@ -755,6 +756,8 @@ $thirdBG: #E6F7FF;
             justify-content: space-between;
 
             .info__items {
+                margin-left: 100px;
+
                 h3 {
                     font-family: 'Inter';
                     font-style: normal;
@@ -783,6 +786,86 @@ $thirdBG: #E6F7FF;
                     }
                 }
             }
+        }
+
+        .newsletter {
+
+
+            .input {
+                border-bottom: 1px solid #C2CDD8;
+
+                input {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 20px;
+                    /* identical to box height, or 154% */
+                    letter-spacing: 0.2px;
+                    color: #626A72;
+                    background: none;
+                    border: none;
+                    padding-bottom: 14px;
+                    padding-left: 15px;
+                }
+            }
+
+            h3 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 24px;
+                /* identical to box height, or 160% */
+                letter-spacing: 0.2px;
+                color: #1F1F1F;
+
+            }
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+                letter-spacing: 0.2px;
+                color: #1F1F1F;
+                margin-top: 14px;
+                margin-bottom: 31px;
+                width: 200px;
+            }
+        }
+    }
+}
+
+.footer__bottom {
+    display: flex;
+    border-top: 1px solid #DEE5EB;
+    padding-top: 36px;
+    justify-content: space-between;
+
+    .licences {
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20px;
+            /* identical to box height, or 151% */
+            letter-spacing: 0.2px;
+            color: #1F1F1F;
+
+            span {
+                color: #0070A0;
+
+            }
+        }
+    }
+    .share{
+        .in{
+            margin-left: 20px;
+            margin-right: 20px;
         }
     }
 }
